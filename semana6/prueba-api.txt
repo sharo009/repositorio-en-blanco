@@ -1,3 +1,7 @@
+Al enviar una petición POST a la ruta http://localhost:3000/registro incluyendo el formato JSON solicitado, el servidor procesa los datos de manera exitosa a través del middleware 'express.json()'.
+
+El objeto viaja en el cuerpo de la solicitud ("req.body"), permitiendo al backend extraer los campos individuales de "nombre" y "mensaje". Finalmente, el servidor devuelve un objeto JSON como respuesta que confirma que los datos fueron procesados correctamente:
+
 {
   "estado": "Datos recibidos",
   "nombre": "Maria",
